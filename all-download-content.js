@@ -14,9 +14,9 @@ async function downloadContents() {
     // }
     // fs.mkdirSync(constants.AZURE_CONTENT_PATH);
 
-    const toVlidateAlbums = constants.STORY_DOLL_ALBUMS
+    const toVlidateAlbums = constants.MUSIC_BOX_ALBUMS
         .concat(constants.MUSIC_DOLL_ALBUMS)
-        .concat(constants.MUSIC_BOX_ALBUMS);
+        .concat(constants.STORY_DOLL_ALBUMS);
 
     for (const sa of constants.CURATING_ALBUMS) {
         for (let i = 1; i <= 12; i++) {
